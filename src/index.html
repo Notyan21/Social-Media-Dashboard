@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Social Media Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class=" dark:bg-dt-vdb-bg font-inter">
+  
+  <header class="w-[90%] mx-auto max-w-lg space-y-5 text-lt-dgb-text py-10 dark:text-dt-dsb-text md:max-w-screen-xl md:py-14">
+    
+    <div class="pb-5 border-b-[1px] border-lt-dgb-text md:border-none">
+      <h1 class="text-3xl font-bold text-black dark:text-white">Social Media Dashboard</h1>
+      <p class="font-bold">Total Followers: 23,004</p>
+    </div>
+    
+    <div class="flex justify-between">      
+      <p>Dark Mode</p>
+      
+      <div class="flex items-center justify-end rounded-full w-14 bg-toggle-light hover:transition-all hover:ease-in-out hover:cursor-pointer" id="toggle-container">
+        <div class="justify-end m-1 bg-white rounded-full size-6" id="toggle-button"></div>
+      </div>    
+      
+    </div>
+
+  </header>
+
+ <main class="w-[90%] mx-auto max-w-lg md:max-w-screen-xl xl:pb-52">
+
+   <section class="space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-10 lg:gap-5 xl:gap-10 lg:grid-cols-4">
+
+    <div class="flex flex-col items-center justify-center py-8 font-bold text-center border-t-4 rounded-md bg-lt-lgb-card-bg text-lt-dgb-text border-facebook dark:bg-dt-dsb-card-bg dark:text-dt-dsb-text">
+    
+      <div class="flex items-center gap-4">
+        <img src="images/icon-facebook.svg" alt="Facebook icon" class="w-6 h-6">
+        <span class="text-sm">@nathanf</span>
+      </div>
+    
+      <div class="py-5">
+        <p class="text-6xl font-bold text-black dark:text-white">1987</p>
+        <span class="uppercase tracking-[.25em] text-sm font-normal">Followers</span>
+      </div>
+    
+      <div class="flex items-center gap-2 text-lime-green dark:text-white">
+        <img src="images/icon-up.svg" alt="Icon showing increase">
+        <span class="text-sm">12 Today</span>
+      </div>
+
+    </div>
+
+    <div class="flex flex-col items-center justify-center py-8 font-bold text-center border-t-4 rounded-md bg-lt-lgb-card-bg text-lt-dgb-text border-twitter dark:bg-dt-dsb-card-bg dark:text-dt-dsb-text">
+    
+      <div class="flex items-center gap-4">
+        <img src="images/icon-twitter.svg" alt="Twitter icon" class="w-6 h-6">
+        <span class="text-sm">@nathanf</span>
+      </div>
+    
+      <div class="py-5">
+        <p class="text-6xl font-bold text-black dark:text-white">1044</p>
+        <span class="uppercase tracking-[.25em] text-sm font-normal">Followers</span>
+      </div>
+    
+      <div class="flex items-center gap-2 text-lime-green dark:text-white">
+        <img src="images/icon-up.svg" alt="Icon showing increase">
+        <span class="text-sm">99 Today</span>
+      </div>
+
+    </div>
+
+    <div class="relative flex flex-col items-center justify-center py-8 font-bold text-center rounded-md bg-lt-lgb-card-bg text-lt-dgb-text dark:bg-dt-dsb-card-bg dark:text-dt-dsb-text">
+  
+      <div class="flex items-center gap-4">
+        <img src="images/icon-instagram.svg" alt="Instagram icon" class="w-6 h-6">
+        <span class="text-sm">@realnathanf</span>
+      </div>
+    
+      <div class="py-5">
+        <p class="text-6xl font-bold text-black dark:text-white">11k</p>
+        <span class="uppercase tracking-[.25em] text-sm font-normal">Followers</span>
+      </div>
+    
+      <div class="flex items-center gap-2 text-lime-green dark:text-white">
+        <img src="images/icon-up.svg" alt="Icon showing increase">
+        <span class="text-sm">1099 Today</span>
+      </div>
+    
+      <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-ig-gradient-start to-ig-gradient-end rounded-t-md"></div>
+    </div>   
+    
+    <div class="flex flex-col items-center justify-center py-8 font-bold text-center border-t-4 rounded-md bg-lt-lgb-card-bg text-lt-dgb-text border-youtube dark:bg-dt-dsb-card-bg dark:text-dt-dsb-text">
+    
+      <div class="flex items-center gap-4">
+        <img src="images/icon-youtube.svg" alt="Youtube icon" class="w-6 h-6">
+        <span class="text-sm">Nathan F.</span>
+      </div>
+    
+      <div class="py-5">
+        <p class="text-6xl font-bold text-black dark:text-white">8239</p>
+        <span class="uppercase tracking-[.25em] text-sm font-normal">Subscribers</span>
+      </div>
+    
+      <div class="flex items-center gap-2 text-youtube">
+        <img src="images/icon-down.svg" alt="Icon showing increase">
+        <span class="text-sm">144 Today</span>
+      </div>
+
+    </div>
+
+  </section>
+  
+  <h2 class="pb-10 text-3xl font-bold pt-14 dark:text-white text-lt-dgb-text">Overview - Today</h2>
+
+   <section class="py-10 space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-5 xl:gap-10 lg:grid-cols-4 md:py-0">
+  
+  
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Page Views</p>
+        <span class="text-5xl font-bold dark:text-white">87</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-facebook.svg" alt="Facebook icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-lime-green">3 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Likes</p>
+        <span class="text-5xl font-bold dark:text-white">52</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-facebook.svg" alt="Facebook icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-bright-red">2 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Likes</p>
+        <span class="text-5xl font-bold dark:text-white lg:text-4xl xl:text-5xl">5462</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-instagram.svg" alt="Instagram icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-lime-green">2257 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Profile Views</p>
+        <span class="text-5xl font-bold dark:text-white">52k</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-instagram.svg" alt="Instagram icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-lime-green">1375 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Retweets</p>
+        <span class="text-5xl font-bold dark:text-white">117</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-twitter.svg" alt="Twitter icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-lime-green">303 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Likes</p>
+        <span class="text-5xl font-bold dark:text-white">507</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-twitter.svg" alt="Twitter icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-up.svg" alt="Icon showing increase">
+          <span class="font-bold text-lime-green">553 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Likes</p>
+        <span class="text-5xl font-bold dark:text-white">107</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-youtube.svg" alt="Youtube icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-down.svg" alt="Icon showing increase">
+          <span class="font-bold text-bright-red">19 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="grid grid-cols-2 px-[5%] py-[8%] bg-lt-lgb-card-bg rounded-md dark:bg-dt-dsb-card-bg">
+
+      <div class="flex flex-col items-start justify-between gap-6">
+        <p class="font-semibold text-lt-dgb-text dark:text-dt-dsb-text">Total Views</p>
+        <span class="text-5xl font-bold dark:text-white">1407</span>
+      </div>
+      
+      <div class="flex flex-col items-end justify-between">
+        <img src="images/icon-youtube.svg" alt="Youtube icon" class="size-[24px]">
+  
+        <div class="flex items-center gap-2">
+          <img src="images/icon-down.svg" alt="Icon showing increase">
+          <span class="font-bold text-bright-red">12 %</span>
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </section> 
+
+  </main> 
+  
+<script src="main.js"></script>
+
+</body>
+</html>
